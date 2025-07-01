@@ -1,0 +1,16 @@
+# Core LiveKit packages
+livekit>=0.12.0
+livekit-agents==1.1.5
+
+# LiveKit plugin packages for AI services
+livekit-plugins-openai>=0.1.0
+livekit-plugins-deepgram>=0.1.0
+livekit-plugins-cartesia>=0.1.0
+livekit-plugins-silero>=0.1.0
+livekit-plugins-tavus>=0.1.0
+
+# Environment and configuration
+python-dotenv>=1.0.0
+
+# Note: You can also install agents with plugins in one command:
+# livekit-agents[openai,silero,deepgram,cartesia,tavus]==1.1.5
